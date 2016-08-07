@@ -1,0 +1,162 @@
+body {
+	min-width: 520px;
+}
+
+.column-ui {
+
+}
+
+.portlet {
+	margin: 0 1em 1em 0;
+    padding: 0.3em;
+	width: 350px;
+}
+
+.portlet-header {
+    padding: 0.2em 0.3em;
+    margin-bottom: 0.5em;
+    position: relative;
+	cursor: move;
+	background-color: dodgerblue;
+}
+
+.portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -8px;
+}
+
+.portlet-content {
+    padding: 0.4em;
+	color: rgba(0,0,0,.7);
+	font-weight: 500;	
+}
+
+.portlet-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    height: 50px;
+}
+
+#all{
+	height: 300px;
+	width: 300px;
+}
+
+
+/*Image slider*/
+
+
+img{
+	max-width: 100%;
+}
+
+.cycle-slideshow{
+	width: 100%;
+	max-width: 640px;
+	display: block;
+	position: relative;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+.cycle-prev, .cycle-next{
+	font-size: 200%;
+	color:aliceblue;
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -16px;
+	z-index: 9999;
+	cursor: pointer;
+}
+
+.cycle-prev{
+	left: 10%;
+}
+
+.cycle-next{
+	right: 10%;
+}
+
+.cycle-pager{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	z-index: 9999;
+	bottom: 15px;
+	cursor: pointer;
+}
+
+.cycle-pager span{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	margin: 0 10px;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+.cycle-pager .cycle-pager-active{
+	background: #fff;
+	opacity: .7;
+}
+
+.example-pager{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	z-index: 9999;
+	bottom: 15px;
+	cursor: pointer;
+}
+
+.example-pager span{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	margin: 0 10px;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+.example-pager .examle-pager-active{
+	background: #fff;
+}
+
+/*design*/
+
+.top {
+	background-color: #18fcaf;
+	margin-top: 20px;
+	color: #ffffff
+}
+
+.mix {
+	list-style: none;
+}
+
+.mix li{
+	margin-top: -10px;
+	margin-bottom: -10px;
+	margin-left: -25px;
+	margin-right: 5px;
+	float: left;
+	display: inline;
+	padding: 25px;
+}
+
+.head2{
+	margin-left: 900px;
+	cursor: pointer;
+}
+
+.head2 a{
+	text-decoration: none;
+	color: white
+}

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/Chart.min.js"></script>
+  <script src="js/jquery.cycle2.min.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/config-chart.js"></script>
+  
+</head>
+<body>
+
+	<div class="container">
+		<div class="jumbotron top">
+			<h1>Dashboard</h1>
+			<h2 class="head2"><a href="index.html">Logout</a></h2>
+		</div>
+		
+		
+		<div class="row column-ui">
+	
+			  <div class="col-md-4">
+			  	<div class="portlet">
+					<div class="portlet-header">Feeds</div>
+					<div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+				</div>
+			  </div>
+
+			  <div class="col-md-4">
+			  	<div class="portlet">
+					<div class="portlet-header">Links</div>
+					<div class="portlet-content">
+						<ul class="mix">
+							<li><a href=""><img src="image/gmail.png"></a></li>
+							<li><a href=""><img src="image/face.jpg"></a></li>
+							<li><a href=""><img src="image/yo.png"></a></li>
+							<li><a href=""><img src="image/in.png"></a></li>
+						</ul>
+					</div>
+				  </div>	
+			  </div>
+			  
+			  <div class="col-md-4">
+			  	<div class="portlet">
+					<div class="portlet-header">Shopping</div>
+					<div class="portlet-content">
+						<ul>
+							<li>Apple</li>
+							<li>Bread</li>
+						</ul>
+					</div>
+				</div>
+			  </div>
+			  
+		  	<div class="col-md-5">
+			  	<div class="portlet" style="width: 400px">
+					<div class="portlet-header">Chart</div>
+			  		<div class="portlet-content"><canvas id="mycanvas" width="356" height="356"></canvas></div>
+		  		</div>
+			</div> 
+
+		  	<div class="col-md-7">
+			  <div class="portlet" style="width:650px">
+				<div class="portlet-header">Images</div>
+				<div class="portlet-content">
+					<div class="cycle-slideshow" data-cycle-fx=scrollHorz data-cycle-timeout=2500>	 
+						<span class="cycle-prev">&#9001;</span>
+						<span class="cycle-next">&#9002;</span>
+						<span class="cycle-pager"></span>
+						<img src="image/1.jpg" />
+						<img src="image/2.jpg" />
+						<img src="image/3.jpg" />
+						<img src="image/4.jpg" />
+						<img src="image/5.jpg" />
+					</div>
+				</div>
+			  </div>
+			</div>  	 
+		</div>	
+	</div> 
+ 
+ 
+</body>
+</html>
